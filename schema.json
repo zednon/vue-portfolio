@@ -1,0 +1,170 @@
+{
+  "basics": {
+    "name": "Anna Gondring",
+    "label": "Front-end & UX/UI Developer",
+    "picture": "",
+    "email": "a.gondring@gmail.com",
+    "phone": "(402) 416.3882",
+    "website": "",
+    "summary": "I am front-end developer that specializes in UX/UI for ADA Complance ",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "NYC",
+      "countryCode": "NY",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "john",
+        "url": "https://twitter.com/john"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "john",
+        "url": "https://linkedin.com/john"
+      },
+      {
+        "network": "Github",
+        "username": "john",
+        "url": "https://github.com/john"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "The Group That ",
+      "position": "President",
+      "website": "http://company.com",
+      "startDate": "2018-01-01",
+      "summary": "Lorem ipsum dolor sit amet, eum ex saperet euripidis. Amet consetetur conclusionemque eum id, eros petentium eam cu."
+    },
+    {
+      "company": "Boston Electronics",
+      "position": "District Manager",
+      "website": "http://company.com",
+      "startDate": "2015-01-01",
+      "summary": "Lorem ipsum dolor sit amet, eum ex saperet euripidis. Amet consetetur conclusionemque eum id, eros petentium eam cu."
+    },
+    {
+      "company": "Batteries&Bulbs",
+      "position": "Store Manager",
+      "website": "http://company.com",
+      "startDate": "2012-01-01",
+      "summary": "Lorem ipsum dolor sit amet, eum ex saperet euripidis. Amet consetetur conclusionemque eum id, eros petentium eam cu."
+    },
+    {
+      "company": "State University",
+      "position": "Electrical Engineering intern",
+      "website": "http://company.com",
+      "startDate": "2009-01-01",
+      "summary": "Lorem ipsum dolor sit amet, eum ex saperet euripidis. Amet consetetur conclusionemque eum id, eros petentium eam cu."
+    }
+  ],
+  "education": [
+    {
+      "institution": "State University",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2013-01-01",
+      "endDate": "2017-01-01",
+      "gpa": "4.0",
+      "courses": [
+        "Computer Sciences"
+      ]
+    },
+    {
+      "institution": "Community College",
+      "area": "Completion",
+      "studyType": "Certificate",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "gpa": "3.2",
+      "courses": [
+        "Modern Logo Design"
+      ]
+    },
+    {
+      "institution": "Community College",
+      "area": "Science",
+      "studyType": "Associate",
+      "startDate": "2010-01-01",
+      "endDate": "2012-01-01",
+      "gpa": "3.4",
+      "courses": [
+        "Graphic Design"
+      ]
+    },
+    {
+      "institution": "Community College",
+      "area": "Completion",
+      "studyType": "Certificate",
+      "startDate": "2010-01-01",
+      "endDate": "2010-01-01",
+      "gpa": "3.1",
+      "courses": [
+        "Marketing"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Graphics/Media",
+      "level": 5,
+      "keywords": [
+        "Photoshop",
+        "Illustrator",
+        "Fireworks",
+        "InDesign",
+        "After Effects"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": 6,
+      "keywords": [
+        "Javascript",
+        "PHP/MYSQL",
+        "jQuery",
+        "HTML5/CSS3"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": 4,
+      "keywords": [
+        "Graphic Design",
+        "Marketing",
+        "Web Design",
+        "Logo Design"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Web Development",
+      "keywords": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor. Lorem ipsum dolor sit amet consectetur adipisicing elit, eiusmod tempor. Proin luctus nulla elit, vitae varius massa.Etiam massa sapien, ultricies quis enim at, tempor fringilla metus. Nulla rhoncus enim sed consectetur. Mauris et eros feugiat, tincidunt eget, dictum neque. Maecenas dapibus sodales magna, eget lectus vehicula non."
+      ]
+    },
+    {
+      "name": "Design",
+      "keywords": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor. Lorem ipsum dolor sit amet consectetur adipisicing elit, eiusmod tempor. Proin luctus nulla elit, vitae varius massa.Etiam massa sapien, ultricies quis enim at, tempor fringilla metus. Nulla rhoncus enim sed consectetur. Mauris et eros feugiat, tincidunt eget, dictum neque. Maecenas dapibus sodales magna, eget lectus vehicula non."
+      ]
+    },
+    {
+      "name": "Marketing",
+      "keywords": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor. Lorem ipsum dolor sit amet consectetur adipisicing elit, eiusmod tempor. Proin luctus nulla elit, vitae varius massa.Etiam massa sapien, ultricies quis enim at, tempor fringilla metus. Nulla rhoncus enim sed consectetur. Mauris et eros feugiat, tincidunt eget, dictum neque. Maecenas dapibus sodales magna, eget lectus vehicula non."
+      ]
+    },
+    {
+      "name": "Support",
+      "keywords": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor. Lorem ipsum dolor sit amet consectetur adipisicing elit, eiusmod tempor. Proin luctus nulla elit, vitae varius massa.Etiam massa sapien, ultricies quis enim at, tempor fringilla metus. Nulla rhoncus enim sed consectetur. Mauris et eros feugiat, tincidunt eget, dictum neque. Maecenas dapibus sodales magna, eget lectus vehicula non."
+      ]
+    }
+  ]
+}
