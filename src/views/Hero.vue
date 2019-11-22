@@ -24,6 +24,7 @@
         </div>
       </v-row>
     </v-img>
+  
   </section>
 </template>
 

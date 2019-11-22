@@ -20,7 +20,8 @@
         </v-col>
         <v-col cols="8">
           <v-rating
-            length="6"
+            length="10"
+             color="accent2"
             dense
             empty-icon="mdi-record"
             full-icon="mdi-record"

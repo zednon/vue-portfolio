@@ -1,7 +1,7 @@
 <template>
   <core-section id="who-i-am">
     <abstract-1 />
-
+   
     <core-heading>Who I am.</core-heading>
 
     <v-col
@@ -15,17 +15,17 @@
         >
           <core-text class="mb-0">
             <p v-text="schema.basics.summary" />
-            <div>
-              <v-img
+            <!-- <div> -->
+              <!-- <v-img
                 :src="require('@/assets/signature.png')"
                 class="ml-auto"
                 width="150"
-              />
-            </div>
+              /> -->
+            <!-- </div> -->
           </core-text>
         </v-col>
 
-        <v-col
+        <!-- <v-col
           cols="12"
           md="4"
         >
@@ -47,8 +47,8 @@
                 v-text="'Phone'"
               />
               <div v-text="'Discord'" />
-            </v-col>
-            <v-col
+            </v-col> -->
+            <!-- <v-col
               cols="6"
               class="subheading text-no-wrap"
             >
@@ -67,13 +67,15 @@
               <div>@j.smith#3992</div>
             </v-col>
           </v-row>
-        </v-col>
+        </v-col> -->
       </v-row>
     </v-col>
 
     <v-col
+          cols="12"
+     md="5"
       class="hidden-sm-and-down text-right text-uppercase"
-      cols="5"
+      
     >
       <div
         class="display-1"
@@ -85,12 +87,8 @@
         v-text="schema.basics.name"
       />
 
-      <v-img
-        :src="require('@/assets/john.png')"
-        contain
-        height="900"
-        style="right: 0; position: absolute; top: 300px;"
-      />
+
+
     </v-col>
   </core-section>
 </template>

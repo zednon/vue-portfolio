@@ -4,7 +4,7 @@
 
     <v-col
       cols="12"
-      md="6"
+      md="12"
     >
       <v-expansion-panels
         v-model="expansion"
@@ -27,6 +27,7 @@
                 <v-card-text>
                   <div
                     v-for="(text, j) in item.keywords"
+                   
                     :key="j"
                     v-text="text"
                   />

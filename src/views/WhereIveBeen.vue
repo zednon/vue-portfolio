@@ -1,6 +1,6 @@
 <template>
   <core-section id="where-ive-been">
-    <core-heading>Where I've been</core-heading>
+    <core-heading>Where I've learned</core-heading>
 
     <v-col
       cols="12"
@@ -18,7 +18,7 @@
         >
           <span
             slot="opposite"
-            v-text="item.startDate.slice(0, 4)"
+            v-text="item.startDate.slice(0, 26)"
           />
 
           <v-card class="pa-3">
@@ -26,7 +26,12 @@
               class="subheading font-weight-bold"
               v-text="item.company"
             />
+            <h5
+           
+             v-text="item.position" />
+            
             <div v-text="item.summary" />
+            <div v-list-item="item.website" />
           </v-card>
         </v-timeline-item>
       </v-timeline>

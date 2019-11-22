@@ -62,25 +62,25 @@
           to: '#who-i-am',
         },
         {
-          text: 'Services',
+          text: 'Work Type',
           to: '#what-i-can-do-for-you',
         },
         {
-          text: 'Experience',
+          text: 'Education',
           to: '#where-ive-been',
         },
         {
-          text: 'Skills & Education',
+          text: 'Skills',
           to: '#what-i-know',
         },
         {
           text: 'Portfolio',
           to: '#what-ive-done',
         },
-        {
-          text: 'Clients',
-          to: '#what-my-clients-say',
-        },
+        // {
+        //   text: 'Clients',
+        //   to: '#what-my-clients-say',
+        // },
         {
           text: 'Contact',
           to: '#lets-talk',

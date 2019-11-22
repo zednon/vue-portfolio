@@ -30,6 +30,7 @@
             class="gre--text"
             v-text="value.company"
           />
+  
           <!-- <v-avatar
             v-if="value.avatar"
             class="ml-4"
@@ -51,6 +52,7 @@
           quote: '',
           name: '',
           company: '',
+          
           // avatar: undefined,
         }),
       },

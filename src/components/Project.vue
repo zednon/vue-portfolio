@@ -1,6 +1,6 @@
 <template>
   <v-sheet
-    class="py-md-5"
+    class="py-md-4"
     height="100%"
     color="transparent"
   >
@@ -18,13 +18,17 @@
       <v-col cols="auto">
         <div
           class="mb-3"
-          style="max-width: 500px;"
+          style="max-width: 100%;"
+
         >
-          <core-subheading class="mb-3">
+          <core-subheading class="mb-4">
             Project Details
           </core-subheading>
           <core-text>
-            In ac felis quis tortor malesuada pretium. Phasellus dolor. Fusce fermentum odio nec arcu. Integer tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In ac felis quis tortor malesuada pretium. Phasellus dolor. Fusce fermentum odio nec arcu. Integer tincidunt.
+                 <span
+        class="subheading"
+        v-text="value.projectDetails"
+      />
           </core-text>
 
           <core-subheading>
@@ -32,44 +36,38 @@
           </core-subheading>
           <v-list class="transparent">
             <v-list-item>
-              <v-list-item-action>
-                <v-icon color="primary">
-                  mdi-account
-                </v-icon>
-              </v-list-item-action>
+           
               <v-list-item-title class="mr-2">
-                Client Name
+                Try It for your self:
               </v-list-item-title>
               <v-list-item-title class="caption grey--text text--lighten-1 hidden-sm-and-down">
-                the clients name
+                       
+                 <span
+        class="subheading">
+        <a v-bind:href="value.tryIt"> Click here to View </a>
+                 </span>
+         
               </v-list-item-title>
-            </v-list-item>
+
+            
+              </v-list-item>
+          
             <v-list-item>
-              <v-list-item-action>
-                <v-icon color="primary">
-                  mdi-calendar
-                </v-icon>
-              </v-list-item-action>
+              
+              
               <v-list-item-title class="mr-2">
-                Project Dates
+                View the Code:
               </v-list-item-title>
-              <v-list-item-title class="caption grey--text text--lighten-1 hidden-sm-and-down">
-                date, date
+                          <v-list-item-title class="caption grey--text text--lighten-1 hidden-sm-and-down">
+                       
+                 <span
+        class="subheading">
+        <a v-bind:href="value.viewCode"> Click here to View The Code </a>
+                 </span>
+         
               </v-list-item-title>
             </v-list-item>
-            <v-list-item>
-              <v-list-item-action>
-                <v-icon color="primary">
-                  mdi-tag
-                </v-icon>
-              </v-list-item-action>
-              <v-list-item-title class="mr-2">
-                Project Category
-              </v-list-item-title>
-              <v-list-item-title class="caption grey--text text--lighten-1 hidden-sm-and-down">
-                category, category, category
-              </v-list-item-title>
-            </v-list-item>
+            
           </v-list>
         </div>
       </v-col>
@@ -83,6 +81,7 @@
           width="500"
           contain
           class="mx-auto"
+         
         />
       </v-col>
     </v-row>
@@ -96,7 +95,10 @@
         type: Object,
         default: () => ({
           name: '',
+          projectDetails: '',
+          tryIt: '',
           category: '',
+          viewCode: '',
           src: undefined,
         }),
       },

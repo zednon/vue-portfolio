@@ -12,12 +12,9 @@
       </core-subheading>
 
       <core-text class="mb-5">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Fusce vel est interdum, pharetra magna ac, facilisis ante.
-        Fusce eu finibus magna. Sest interdum, pharetra magna ac, facilisis ante.
-        Fusce eu finibus magna.
+   Please Contact me if you have any quesitons about my work and would like to speak to me. 
       </core-text>
-
+<!-- 
       <core-subheading class="text-uppercase mb-3">
         Send me a Message
       </core-subheading>
@@ -53,8 +50,8 @@
         >
           Contact Me
         </v-btn>
-      </v-form>
-    </v-col>
+      </v-form>-->
+    </v-col> 
 
     <v-col
       cols="12"
@@ -71,26 +68,8 @@
         class="transparent"
         three-line
       >
-        <v-list-item>
-          <v-list-item-avatar>
-            <v-icon
-              class="mr-5"
-              color="primary"
-              size="48"
-            >
-              mdi-map-marker
-            </v-icon>
-          </v-list-item-avatar>
-          <v-list-item-content>
-            <v-list-item-title class="primary--text">
-              Address
-            </v-list-item-title>
-            <v-list-item-subtitle>
-              {{ schema.basics.location.address }}<br>
-              {{ schema.basics.location.city }}, {{ schema.basics.location.postalCode }}
-            </v-list-item-subtitle>
-          </v-list-item-content>
-        </v-list-item>
+       
+         
         <v-list-item>
           <v-list-item-avatar>
             <v-icon
@@ -108,32 +87,10 @@
             <v-list-item-subtitle v-text="schema.basics.email" />
           </v-list-item-content>
         </v-list-item>
-        <v-list-item>
-          <v-list-item-avatar>
-            <v-icon
-              size="48"
-              color="primary"
-              class="mr-5"
-            >
-              mdi-phone
-            </v-icon>
-          </v-list-item-avatar>
-          <v-list-item-content>
-            <v-list-item-title class="primary--text">
-              Phone
-            </v-list-item-title>
-            <v-list-item-subtitle v-text="schema.basics.phone" />
-          </v-list-item-content>
-        </v-list-item>
+      
       </v-list>
     </v-col>
-    <v-img
-      :src="require('@/assets/john-alt.png')"
-      contain
-      max-width="30vw"
-      style="bottom: -20px; right: 0; position: absolute;"
-      width="100%"
-    />
+
   </core-section>
 </template>
 
