@@ -6,8 +6,8 @@
     "deploy": "now && now alias",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint" 
-
+    "lint": "vue-cli-service lint" ,
+    "start": "node server.js"
   },
   "devDependencies": {
     "@mdi/font": "^3.5.95",
