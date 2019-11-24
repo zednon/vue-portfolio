@@ -1,12 +1,12 @@
 {
-  "name": "anna-gondring-portfolio",
+  "name": "vue-portfolio",
   "version": "1.5.0",
   "private": true,
   "scripts": {
     "deploy": "now && now alias",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint" ,
+    "lint": "vue-cli-service lint",
     "start": "node server.js"
   },
   "devDependencies": {
@@ -38,10 +38,13 @@
     "type": "git",
     "url": "git+https://github.com/zednon/vue-portfolio.git"
   },
-  "author": "",
+  "author": "Anna Gondring",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zednon/vue-portfolio/issues"
   },
-  "homepage": "https://zednon.github.io/vue-portfolio/"
+  "homepage": "https://thawing-bayou-55644.herokuapp.com/",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
