@@ -23,7 +23,7 @@
       iconMap: {
         github: 'mdi-github-box',
         linkedin: 'mdi-linkedin-box',
-       
+       email: 'mdi-email-box'
       },
     }),
     computed: {

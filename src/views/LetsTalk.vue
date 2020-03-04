@@ -59,7 +59,7 @@
       class="text-left"
     >
       <core-subheading class="text-uppercase">
-        Social Contacts
+     Contacts Me:
       </core-subheading>
 
       <social-contacts />

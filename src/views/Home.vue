@@ -15,8 +15,8 @@
       <what-i-know />
 
       <what-ive-done />
-
-      <!-- <what-my-clients-say /> -->
+      <!-- <what-my-clients-say/> -->
+    
 
       <lets-talk />
     </v-container>
@@ -32,6 +32,7 @@
       WhereIveBeen: () => import('@/views/WhereIveBeen'),
       WhatIKnow: () => import('@/views/WhatIKnow'),
       WhatIveDone: () => import('@/views/WhatIveDone'),
+  
       // WhatMyClientsSay: () => import('@/views/WhatMyClientsSay'),
       LetsTalk: () => import('@/views/LetsTalk'),
     },

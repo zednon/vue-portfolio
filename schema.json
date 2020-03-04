@@ -6,7 +6,7 @@
     "email": "a.gondring@gmail.com",
     "phone": "(402) 416.3882",
     "website": "",
-    "summary": "As a child I was also on the computer I would. Build GeoCities pages with my friends after school and use them to store extra data. When I went to College I hava a major in History and minor in American Sign. Following College I go a job as a Job Coach for Disabled. I started to realize as much as a positive impact I was having I wanted to solve problems. I started to do Free Code Camp, Code Academy, and Team Tree House. After I felt I had a good understand of the basics I enrolled in a Boot Camp at Columbia University.",
+    "summary": "As a child Build GeoCities pages with my friends after school and use them to store extra data. When I went to College I major in History and minor in American Sign. Following College I go a job as a Job Coach for Disabled. I started to realize as much as a positive impact I was having I wanted to solve problems. I started to do Free Code Camp, Code Academy, and Team Tree House. After I felt I had a good understand of the basics I enrolled in a Boot Camp at Columbia University.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -19,19 +19,27 @@
       {
         "network": "LinkedIn",
         "username": "agondring",
-        "url": "https://linkedin.com/agondring"
+        "url": "https://www.linkedin.com/in/agondring/"
       },
       {
         "network": "Github",
         "username": "zednon",
         "url": "https://github.com/zednon"
       }
+  
     ]
   },
   "work": [
     {
+      "company": "Harlem Center For Education",
+      "position": "Program Manager STEAM",
+      "url": "",
+      "startDate": "2019-12-13 - ongoing",
+      "summary": "Develop a program to teach Middle School Students Codeing, Science, Engineering. " 
+    },
+    {
       "company": "The Group That Shall Not Be Name",
-      "position": "Admin/Web Developer Intern",
+      "position": "Admin / Web Developer",
       "url": "",
       "startDate": "2009-01-10 - ongoing",
       "summary": "Have development a website for the group that shall not be name, as well as planed events threw out NYC."
@@ -49,14 +57,8 @@
       "url": "",
       "startDate": "2018-09-20 - 2019-03-31",
       "summary": "Attend a Boot Camp at Columbia Univ. Where I learned both Front-End and Back-end Engineering."
-    },
-    {
-      "company": "Free Coder Camp",
-      "position": "Respondsive Web Design ",
-      "url": "https://www.freecodecamp.org/certification/zednon/responsive-web-design",
-      "startDate": "2017-10-28 - on going",
-      "summary": "Have ran threw drills on Free Coder Camp to learn Responsive web design, and Front End Engineering ."
     }
+ 
   ],
   "education": [
     {
@@ -179,9 +181,9 @@
     },
     {
       "name": "",
-      "level": 4,
+      "level": 5,
       "keywords": [
-      "Andriod Development "
+      "Flutter "
       ]
     }
   ],

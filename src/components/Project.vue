@@ -3,8 +3,10 @@
     class="py-md-4"
     height="100%"
     color="transparent"
+    padding="5%"
+    margine="10px"
   >
-    <div class="text-center mb-5">
+     <div class="text-center mb-5">
       <core-subheading
         class="mb-1"
         v-text="value.name"
@@ -13,13 +15,15 @@
         class="subheading"
         v-text="value.category"
       />
-    </div>
-    <v-row>
+    </div> 
+     <v-row>
       <v-col cols="auto">
         <div
           class="mb-3"
-          style="max-width: 100%;"
-
+          style="max-width: 100%; 
+          padding: 5%;"
+          
+         
         >
           <core-subheading class="mb-4">
             Project Details
@@ -43,7 +47,7 @@
               <v-list-item-title class="caption grey--text text--lighten-1 hidden-sm-and-down">
                        
                  <span
-        class="subheading">
+        class="subheading"">
         <a v-bind:href="value.tryIt"> Click here to View </a>
                  </span>
          
@@ -84,7 +88,7 @@
          
         />
       </v-col>
-    </v-row>
+    </v-row> 
   </v-sheet>
 </template>
 
