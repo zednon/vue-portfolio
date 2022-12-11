@@ -45,6 +45,6 @@
   },
   "homepage": "https://thawing-bayou-55644.herokuapp.com/",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
